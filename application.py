@@ -9,7 +9,7 @@ def index():
 @app.route("/<string:name>")
 def other(name):
     name = name.capitalize()
-    return f"Hello, {name}! ;)"
+    return f"<h1>Hello, {name}! ;)</h1>"
 
 if __name__ == '__main__':
     app.run()
